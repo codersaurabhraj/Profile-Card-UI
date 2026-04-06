@@ -19,7 +19,7 @@ This project showcases a clean design with smooth layout and social media integr
 
 ## 📸 Preview
 
-![Profile Card Preview](./preview.png)
+![Profile Card Preview](./images/preview.png)
 
 ## 🚀 Live Demo
 
