@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.main-card{
+    width: 100% ;
+    height: 100vh;
+    background-color: black;
+    background-image: url("images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.profile-top{
+    background-color: rgb(130, 85, 1);
+    text-align: center;
+    color: white;
+    padding: 40px 30px;
+    position: relative;
+    border-radius: 20px;
+    
+}
+
+.profile-top h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+
+.menu-icon{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 25px;
+}
+
+
+.setting-icon{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 25px;
+}
+
+.profile-icon{
+    width: 150px;
+    height: 150px;   
+    object-fit: cover; 
+    object-position: top;
+    border-radius: 50%;
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+.social-icons img{
+    width: 20px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
+
+
+
+#btn{
+    background-color: #fff;
+    color: rgb(130, 85, 1);
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: none; 
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: -50px;
+
+}
+
+
+#btn:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 0.1px solid rgba(0, 0, 0, 0.3);
+    transform: scale(1.04);
+} 
+
+
+.profile-bottom{
+    background-color: #fff;
+    color: #999;
+    padding: 60px 0px;
+    margin: -10px -30px -40px -30px; 
+    border-radius: 20px;
+
+}
+.profile-bottom img{
+    width: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+
+@media (max-width:500px) {
+    .profile-top{
+        padding: 6vh 3vh;
+    } 
+
+    .profile-top h3{
+    font-size: 1em;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.profile-icon{
+    width: 17vh;
+    height: 17vh;   
+    margin-top: 5vh;
+    padding: 1vw;
+}
+
+
+.menu-icon{
+    width: 3vh;
+    top: 5vh;
+    left: 7vw;
+}
+
+.setting-icon{
+    position: absolute;
+    top: 5vh;
+    right: 7vw;
+    width: 3vh;
+}
+.social-icons img{
+    width: 2.2vh;
+    margin: 5vw 1vw;
+}
+
+
+#btn{
+    padding: 1vh 4vh;
+    font-size: 0.8em;
+    margin-bottom: -50px;
+}
+
+.profile-bottom{
+    padding: 6vh 3vh;
+    margin: -1vh -3vh -6vh -3vh;
+    border-radius: 20px;
+
+}
+.profile-bottom img{
+    width: 3vw;
+    margin-top: 5vw;
+    cursor: pointer;
+
+}
+
+}
